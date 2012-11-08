@@ -9,11 +9,11 @@ Installation
 ------------
 First
 ```sh
-$ git clone $THIS_REPOS_URL
+$ git clone git://github.com/traviskaufman/cake-autocomplete.git
 ```
 or
 ```sh
-$ curl $PATH_TO_RAW_SCRIPT_FILE
+$ curl -k https://raw.github.com/traviskaufman/cake-autocomplete/master/cake-autocomplete.sh > cake-autocomplete.sh
 ```
 then,
 ```sh
