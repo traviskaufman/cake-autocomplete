@@ -1,7 +1,7 @@
-Cake Autocomplete: Autocompletion for Cakefiles
-===============================================
+Autocompletion for Cakefiles
+============================
 This very <i>very</i> small script provides autocompletion for cake, the
-coffee-script build tool. It was inspired by @sgruhier 's [rake
+coffee-script build tool. It was inspired by @sgruhier's [rake
 autocomplete](https://github.com/sgruhier/rake_cap_bash_autocomplete) as well
 as my own personal quest towards as little keystrokes as possible.
 
