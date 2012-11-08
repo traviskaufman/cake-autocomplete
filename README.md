@@ -28,6 +28,8 @@ Usage
 -----
 Let's say you have a `Cakefile` containing the following:
 ```CoffeeScript
+option '-o', '--output [DIR]', 'directory to output to'
+
 task "lint", "lint the code", ->
   # ....
 
@@ -55,12 +57,18 @@ you'll get
 ```
 lint
 ```
-
-Basically exactly like you would with any other autocompletion program.
-
+If you type
+```sh
+$ cake compile [TAB]
+```
+you'll get
+```
+--output -o lint compile test
+```
 Hope this comes in handy!
 
-
+License
+-------
 <a rel="license"
 href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative
 Commons License" style="border-width:0"
